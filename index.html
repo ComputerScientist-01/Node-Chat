@@ -5,7 +5,38 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Chat App</title>
-		<style></style>
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+				display: flex;
+				justify-content: center;
+			}
+
+			#message-container {
+				width: 80%;
+				max-width: 1200px;
+			}
+
+			#message-container div {
+				background-color: #ccc;
+				padding: 5px;
+			}
+
+			#message-input {
+				flex-grow: 1;
+			}
+
+			#send-container {
+				position: fixed;
+				padding-bottom: 30px;
+				bottom: 0px;
+				background-color: white;
+				max-width: 1200px;
+				width: 80%;
+				display: flex;
+			}
+		</style>
 	</head>
 	<body></body>
 </html>
