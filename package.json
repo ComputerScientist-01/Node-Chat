@@ -1,0 +1,14 @@
+{
+	"name": "node-chat",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/ComputerScientist-01/Node-Chat.git",
+	"author": "ComputerScientist-01 <rathi406@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"socket-io": "^1.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
