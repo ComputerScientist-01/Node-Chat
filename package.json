@@ -2,6 +2,7 @@
 	"name": "node-chat",
 	"version": "1.0.0",
 	"main": "index.js",
+	"scripts": {"start": "nodemon index.js"},
 	"repository": "https://github.com/ComputerScientist-01/Node-Chat.git",
 	"author": "ComputerScientist-01 <rathi406@gmail.com>",
 	"license": "MIT",
